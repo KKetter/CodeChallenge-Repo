@@ -1,15 +1,18 @@
 # data-structures-and-algorithms-Java
 
-## Java401 CC
-1. [arrayReverse](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/challenges/ArrayReverse.java)
-2. [arrayShift](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/challenges/ArrayShift.java) 
+## Java401 CC - ArrayReverse
 
-    -[arrayShift WB Photo 1](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift1.JPG)
-    
-    -[arrayShift WB Photo 2](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift2.JPG)
-    
-3. [placeHolder](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/challenges/ArrayShift.java) 
+Write a function called reverseArray which takes an array as an argument. Without utilizing any of the built-in methods available to your language, return an array with elements in reversed order.
 
-    -[placeHolder 1](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift1.JPG)
+### Approach
+
+Time:  O(n) - I think?
+
+Space: O(n) - inplace reverse of array
+
+### Solution
+
+![arrayShift WB Photo 1] (https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift1.JPG)
     
-    -[placeHolder 2](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift2.JPG)
+![arrayShift WB Photo 2] (https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift2.JPG)
+    
