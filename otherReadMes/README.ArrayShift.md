@@ -1,12 +1,20 @@
 # data-structures-and-algorithms-Java
 
-## Java401 CC
-1. [arrayReverse](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/challenges/ArrayReverse.java)
-2. [arrayShift](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/challenges/ArrayShift.java) 
+## Java401 CC - ArrayShift
 
-   
-3. [placeHolder](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/challenges/ArrayShift.java) 
+Write a function called insertShiftArray which takes in an array and the value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
 
-    -[placeHolder 1](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift1.JPG)
+### Approach
+
+Time: O(n)
+
+Space: O(n) 
+
+### Solution
+
+[Array Shift Code] (https://github.com/KKetter/CodeChallenge-Repo/blob/master/DSA%20401%20JAVA/src/main/java/DSA/JAVA/ArrayShift.java)
+
+![arrayShift WB Photo 1] (https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift1.JPG)
     
-    -[placeHolder 2](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift2.JPG)
+![arrayShift WB Photo 2] (https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift2.JPG)
+    

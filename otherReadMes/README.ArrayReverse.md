@@ -12,7 +12,6 @@ Space: O(n) - inplace reverse of array
 
 ### Solution
 
-![arrayShift WB Photo 1] (https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift1.JPG)
-    
-![arrayShift WB Photo 2] (https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/arrayShift2.JPG)
-    
+Not required for this lab
+
+[Code](https://github.com/KKetter/CodeChallenge-Repo/blob/master/DSA%20401%20JAVA/src/main/java/DSA/JAVA/ArrayReverse.java)
