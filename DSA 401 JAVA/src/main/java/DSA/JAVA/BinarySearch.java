@@ -8,17 +8,13 @@ public class BinarySearch {
         int n = arr.length;
         int x = 1;
         int result = ob.binarySearch(arr, x);
-//        if (result == -1)
-//            System.out.println("Element not present");
-//        else
-//            System.out.println("Element found at "
-//                    + "index " + result);
         System.out.println(result);
     }
 
     int binarySearch(int arr[], int x)
     {
         int l = 0, r = arr.length - 1;
+
         while (l <= r) {
             int m = l + (r - l) / 2;
 
