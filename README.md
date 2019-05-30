@@ -3,4 +3,4 @@
 ## Java401 CC
 1. [arrayReverse](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.ArrayReverse.md)
 2. [arrayShift](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.ArrayShift.md)
-3. []()
+3. [binarySearch](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.BinarySearch.md)
