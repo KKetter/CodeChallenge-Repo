@@ -11,6 +11,7 @@ This object should be aware of a default empty value assigned to head when the l
 ### Approach
 
 Time: O(1);
+Space: O(n);
 
 ### Solution
 
