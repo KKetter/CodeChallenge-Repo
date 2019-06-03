@@ -22,11 +22,17 @@ public class LinkedList {
         return false;
     }
     //print
-    public void print(){
+    public String print(){
         Node n = head;
+        StringBuilder nodeString = new StringBuilder();
+        nodeString.append("LinkedList: " );
         while (n !=  null){
-            System.out.print(n.value + " ");
+            nodeString.append(n.value);
+            nodeString.append("->");
             n = n.next;
         }
+        nodeString.append("null");
+        System.out.println(nodeString.toString());
+        return (nodeString.toString());
     }
 }

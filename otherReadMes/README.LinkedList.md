@@ -16,4 +16,4 @@ Time: O(1);
 
 Not required for this lab
 
-[Code](https://github.com/KKetter/CodeChallenge-Repo/blob/master/DSA%20401%20JAVA/src/main/java/DSA/JAVA/ArrayReverse.java)
+[Code](https://github.com/KKetter/CodeChallenge-Repo/blob/LinkedList/DSA%20401%20JAVA/src/main/java/DSA/JAVA/linkedList/LinkedList.java)
