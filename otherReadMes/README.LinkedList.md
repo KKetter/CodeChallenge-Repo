@@ -21,6 +21,8 @@ Space: O(n);
 ***
 ## Solution
 
-Not required for this lab
-
 [Code](https://github.com/KKetter/CodeChallenge-Repo/blob/LinkedList/DSA%20401%20JAVA/src/main/java/DSA/JAVA/linkedList/LinkedList.java)
+
+[Linked List Insertion WB Image 1](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/linkedListInsertion1.JPG)
+
+[Linked List Insertion WB Image 2](https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/linkedListInsertion2.JPG)
