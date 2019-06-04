@@ -12,6 +12,8 @@ This object should be aware of a default empty value assigned to head when the l
 * Add a method named .insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
 * Add a method named .insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
 ***
+* Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+***
 ## Approach
 
 Time: O(1);
@@ -23,3 +25,5 @@ Space: O(n);
 [Code](https://github.com/KKetter/CodeChallenge-Repo/blob/LinkedList/DSA%20401%20JAVA/src/main/java/DSA/JAVA/linkedList/LinkedList.java)
 
 [Linked List Insertion WB Image 1](https://github.com/KKetter/CodeChallenge-Repo/blob/ll_insertion/assets/linkedListInsertion1.jpg)
+
+[Linked List nth From the End WB Image 1](https://github.com/KKetter/CodeChallenge-Repo/blob/ll_insertion/assets/linkedListnthFromTheEnd1.jpg)
