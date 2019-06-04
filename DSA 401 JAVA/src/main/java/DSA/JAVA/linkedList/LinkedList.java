@@ -35,4 +35,52 @@ public class LinkedList {
         System.out.println(nodeString.toString());
         return (nodeString.toString());
     }
+    //append
+    public void append(int newData){
+        Node newNode = new Node(newData);
+        if (head == null){
+            head = new Node(newData);
+        }
+        newNode.next = null;
+        Node last = head;
+        while(last.next != null) last = last.next;
+        last.next = newNode;
+    }
+    //insertBefore - refresher provided by John Winters on use of previous as second pointer
+    public boolean insertBefore(int target, int newData){
+        Node current = head;
+        Node previous;
+        // first item in the list
+        if(current.value == target){
+            this.insert(newData);
+        }
+        previous = current;
+        current = current.next;
+        while(current != null){
+            if(current.value == target){
+                Node newNode = new Node(newData);
+                previous.next = newNode;
+                newNode.next = current;
+                //got target and returned it
+                return true;
+            }
+            previous = current;
+            current = current.next;
+        }
+        //got to the end no target so return false
+        return false;
+    }
+    //insertAfter
+    public boolean insertAfter(int target, int newData){
+        Node current = head;
+        while (current != null){
+            if (current.value == target ){
+                Node newNode = new Node(newData);
+                newNode.next = current.next;
+                current.next = newNode;
+            }
+            current = current.next;
+        }
+        return false;
+    }
 }

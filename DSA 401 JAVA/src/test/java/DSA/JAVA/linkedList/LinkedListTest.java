@@ -51,7 +51,52 @@ public class LinkedListTest {
         list.insert(555);
         list.insert(666);
         list.insert(777);
-
         assertEquals("LinkedList: 777->666->555->444->null", list.print());
+    }
+    //Can successfully insert a node after the last node of the linked list
+    //Can successfully add multiple nodes to the end of a linked list
+    @Test
+    public void append() {
+
+        LinkedList list = new LinkedList();
+        list.insert(444);
+        list.insert(555);
+        list.insert(666);
+        list.insert(777);
+        list.append(333);
+        list.append(222);
+        assertEquals("LinkedList: 777->666->555->444->333->222->null", list.print());
+    }
+    //Can successfully insert a node before the first node of a linked list
+    //Can successfully insert a node before a node located in the middle of a linked list
+    @Test
+    public void insertBefore() {
+        LinkedList list = new LinkedList();
+        list.insert(40);
+        list.insert(50);
+        list.insert(60);
+        list.insert(70);
+        list.insertBefore(70, 80);
+        assertEquals("LinkedList: 80->70->60->50->40->null", list.print());
+        list.insertBefore(60, 65 );
+        assertEquals("LinkedList: 80->70->65->60->50->40->null", list.print());
+    }
+    //Can successfully insert a node after the last node of the linked list
+    //Can successfully add a node to the end of the linked list
+    //Can successfully insert after a node in the middle of the linked list
+    @Test
+    public void insertAfter() {
+        LinkedList list = new LinkedList();
+        list.insert(40);
+        list.insert(50);
+        list.insert(60);
+        list.insert(70);
+        list.insertAfter(40, 30);
+        assertEquals("LinkedList: 70->60->50->40->30->null", list.print());
+        list.insertAfter(30, 20);
+        list.insertAfter(20, 10);
+        assertEquals(true , list.includes(10));
+        list.insertAfter(40, 35);
+        assertEquals("LinkedList: 70->60->50->40->35->30->20->10->null", list.print());
     }
 }
