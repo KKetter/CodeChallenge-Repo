@@ -99,4 +99,16 @@ public class LinkedListTest {
         list.insertAfter(40, 35);
         assertEquals("LinkedList: 70->60->50->40->35->30->20->10->null", list.print());
     }
+    @Test
+    public void linkedListFromTheEnd(){
+        LinkedList list = new LinkedList();
+        list.insert(40);
+        list.insert(50);
+        list.insert(60);
+        list.insert(70);
+        list.linkedListFromTheEnd(2);
+        assertEquals(60, list.linkedListFromTheEnd(2));
+        assertEquals(40, list.linkedListFromTheEnd(0));
+
+    }
 }
