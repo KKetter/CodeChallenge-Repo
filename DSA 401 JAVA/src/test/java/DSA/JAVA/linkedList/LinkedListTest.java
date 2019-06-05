@@ -111,4 +111,15 @@ public class LinkedListTest {
         assertEquals(40, list.linkedListFromTheEnd(0));
 
     }
+    @Test(expected = IllegalArgumentException.class)
+    public void linkedListFromTheEndFail(){
+        LinkedList list = new LinkedList();
+        list.insert(40);
+        list.insert(50);
+        list.insert(60);
+        list.insert(70);
+        list.linkedListFromTheEnd(8);
+        assertEquals("The argument 8 is too large. The link only has 4 nodes", list.linkedListFromTheEnd(8));
+
+    }
 }
