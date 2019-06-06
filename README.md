@@ -7,3 +7,4 @@
 4. [linkedList](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.LinkedList.md)
 5. [linkedList Insertion](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.LinkedList.md)
 6. [linkedList kth from end](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.LinkedList.md)
+7. [linkedList merge](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.LinkedList.md)

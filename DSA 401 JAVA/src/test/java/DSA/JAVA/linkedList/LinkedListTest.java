@@ -122,4 +122,23 @@ public class LinkedListTest {
         assertEquals("The argument 8 is too large. The link only has 4 nodes", list.linkedListFromTheEnd(8));
 
     }
+
+    @Test
+    public void testMergeLList() {
+        LinkedList list = new LinkedList();
+        list.insert(40);
+        list.insert(50);
+        list.insert(60);
+        list.insert(70);
+        LinkedList list1 = new LinkedList();
+        list1.insert(4);
+        list1.insert(5);
+        list1.insert(6);
+        list1.insert(7);
+
+        LinkedList output = LinkedList.mergeLists(list, list1);
+        String expected = "LinkedList: 70->7->60->6->50->5->40->4->null";
+
+        assertEquals(expected, output.print());
+    }
 }
