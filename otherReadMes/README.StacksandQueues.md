@@ -10,8 +10,8 @@
 
 ***
 ## Approach & Efficiency
-Time: O(n) - I dont expect nested loops
-Space: O(1) - temp node?
+Time: O(n)
+Space: O(1)
 ***
 ## API
 <!-- Description of each method publicly available to your Stack and Queue-->
