@@ -4,7 +4,7 @@ import org.apache.commons.math3.stat.descriptive.rank.Max;
 
 public class Stack {
 //    Create a Stack class that has a top property.
-    Node top;
+    public Node top;
 //    It creates an empty Stack when instantiated.
 //    This object should be aware of a default empty value assigned to top when the stack is created.
     public Stack(){
