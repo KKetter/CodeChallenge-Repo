@@ -22,7 +22,7 @@ public class AnimalShelter<T> {
     }
 
     public T deqAnimal(T pref) {
-        T animal = null;
+        T animal;
         if (pref.equals("dog")) {
             animal = this.dog.dequeue();
             //
@@ -32,5 +32,5 @@ public class AnimalShelter<T> {
             return null;
         }
         return animal;
-    }
+      }
     }

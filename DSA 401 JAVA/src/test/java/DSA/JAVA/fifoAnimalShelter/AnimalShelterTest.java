@@ -2,6 +2,8 @@ package DSA.JAVA.fifoAnimalShelter;
 
 import org.junit.Test;
 
+import java.util.NoSuchElementException;
+
 import static org.junit.Assert.*;
 
 public class AnimalShelterTest {
@@ -13,13 +15,15 @@ public class AnimalShelterTest {
         assertEquals("cat", test.cat.peek());
     }
 
-    @Test
+    @Test(expected = NoSuchElementException.class)
     public void deqAnimal() {
         AnimalShelter test = new AnimalShelter();
         test.enqAnimal("cat");
+        test.enqAnimal("cat");
         assertEquals("cat", test.deqAnimal("cat"));
-        test.enqAnimal("chicken");
-        assertEquals("null", test.deqAnimal("chicken"));
+        assertEquals(null, test.deqAnimal("chicken"));
+        assertEquals(null, test.deqAnimal("dog"));
+
 
     }
 }
