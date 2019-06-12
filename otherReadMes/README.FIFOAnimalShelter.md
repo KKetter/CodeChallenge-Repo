@@ -14,3 +14,8 @@ Space: O(1)
 <!-- Description of each method publicly available to your Stack and Queue-->
 * enqueue(animal)
 * dequeue(pref)
+## Solution
+
+[FIFO Animal Shelter Code] (https://github.com/KKetter/CodeChallenge-Repo/blob/master/DSA%20401%20JAVA/src/main/java/DSA/JAVA/fifoAnimalShelter/AnimalShelter.java)
+
+![binarySearch WB Photo 1] (https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/fifoAnimalShelter1.JPG)
