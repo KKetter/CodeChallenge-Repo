@@ -16,6 +16,6 @@ Space: O(1)
 * dequeue(pref)
 ## Solution
 
-[FIFO Animal Shelter Code] (https://github.com/KKetter/CodeChallenge-Repo/blob/master/DSA%20401%20JAVA/src/main/java/DSA/JAVA/fifoAnimalShelter/AnimalShelter.java)
+[FIFO Animal Shelter Code](https://github.com/KKetter/CodeChallenge-Repo/blob/fifoAnimalShelter/DSA%20401%20JAVA/src/main/java/DSA/JAVA/fifoAnimalShelter/AnimalShelter.java)
 
-![binarySearch WB Photo 1] (https://github.com/KKetter/data-structures-and-algorithms-Java/blob/master/assets/fifoAnimalShelter1.JPG)
+[Animal Shelter WB](hhttps://github.com/KKetter/CodeChallenge-Repo/blob/fifoAnimalShelter/assets/fifoAnimalShelter1.JPG)
