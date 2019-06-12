@@ -18,4 +18,4 @@ Space: O(1)
 
 [FIFO Animal Shelter Code](https://github.com/KKetter/CodeChallenge-Repo/blob/fifoAnimalShelter/DSA%20401%20JAVA/src/main/java/DSA/JAVA/fifoAnimalShelter/AnimalShelter.java)
 
-[Animal Shelter WB](hhttps://github.com/KKetter/CodeChallenge-Repo/blob/fifoAnimalShelter/assets/fifoAnimalShelter1.JPG)
+[Animal Shelter WB](https://github.com/KKetter/CodeChallenge-Repo/blob/fifoAnimalShelter/assets/fifoAnimalShelter1.JPG)
