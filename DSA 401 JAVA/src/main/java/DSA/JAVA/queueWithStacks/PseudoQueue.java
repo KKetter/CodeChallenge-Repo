@@ -1,31 +1,39 @@
 package DSA.JAVA.queueWithStacks;
 
-import DSA.JAVA.stacksandqueues.Node;
 import DSA.JAVA.stacksandqueues.Stack;
 
-public class PseudoQueue {
-    Stack enqueueStack;
-    Stack dequeueStack;
+import java.util.EmptyStackException;
+
+public class PseudoQueue<T> {
+    Stack<T> enqueueStack;
+    Stack<T> dequeueStack;
 
     public PseudoQueue(){
         this.enqueueStack = new Stack();
         this.dequeueStack = new Stack();
     }
 
-    public void enqueue(int value){
+    public void enqueue(T value){
         this.enqueueStack.push(value);
     }
 
-    public int dequeue(){
-        while(enqueueStack.top != null){
-            dequeueStack.push(enqueueStack.pop().value);
+    public T dequeue(){
+        if(dequeueStack.isEmpty()){
+            if(!enqueueStack.isEmpty()){
+                stackToQueue();
+            }else throw new EmptyStackException();
         }
-        Node temp = dequeueStack.pop();
+        return dequeueStack.pop();
+    }
 
-        while(dequeueStack.top != null){
-            enqueueStack.push(dequeueStack.pop().value);
+    public boolean isEmpty(){
+        return enqueueStack.isEmpty() && dequeueStack.isEmpty();
+    }
+
+    private void stackToQueue(){
+        while(!enqueueStack.isEmpty()){
+            dequeueStack.push(enqueueStack.pop());
         }
-        return temp.value;
     }
 
 
