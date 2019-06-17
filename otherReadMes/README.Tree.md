@@ -22,3 +22,7 @@ Space: O(1)
 * BinarySearchTree
     * add() - accepts a value, and adds a new node with that value in the correct location in the binary search tree.
     * contains() - accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
+
+## Solution
+![Binary Tree Code](https://github.com/KKetter/CodeChallenge-Repo/blob/Tree/DSA%20401%20JAVA/src/main/java/tree/BinaryTree.java)
+![Binary Search Tree Code](https://github.com/KKetter/CodeChallenge-Repo/blob/Tree/DSA%20401%20JAVA/src/main/java/tree/BinarySearchTree.java)

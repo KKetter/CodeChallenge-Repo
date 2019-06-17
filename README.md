@@ -12,3 +12,4 @@
 9. [PseudoQueue](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.PseudoQueue.md)
 10. [FIFO Animal Shelter](https://github.com/KKetter/CodeChallenge-Repo/blob/fifoAnimalShelter/otherReadMes/README.FIFOAnimalShelter.md)
 11. [Multibracket Validation](https://github.com/KKetter/CodeChallenge-Repo/blob/multiBracketValidation/otherReadMes/README.multibracketValidation.md)
+12. [Tree](https://github.com/KKetter/CodeChallenge-Repo/blob/multiBracketValidation/otherReadMes/README.Tree.md)

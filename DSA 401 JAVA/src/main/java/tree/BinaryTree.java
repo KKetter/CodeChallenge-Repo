@@ -19,7 +19,7 @@ public class BinaryTree<T> {
         }
     }
 
-    protected void preOrderHelper(Node node, List<Integer> values){
+    protected void preOrderHelper(Node<Integer> node, List<Integer> values){
         values.add((Integer) node.value);
         if(node.leftChild != null) {
             this.preOrderHelper(node.leftChild, values);
@@ -38,7 +38,7 @@ public class BinaryTree<T> {
         }
     }
 
-    protected void inOrderHelper(Node node, List<Integer> values){
+    protected void inOrderHelper(Node<Integer> node, List<Integer> values){
         if(node.leftChild != null) {
             this.inOrderHelper(node.leftChild, values);
         } values.add((Integer) node.value);
@@ -47,7 +47,7 @@ public class BinaryTree<T> {
         }
     }
 
-    public List<Integer> postOrder(Node input){
+    public List<Integer> postOrder(Node<Integer> input){
         if (input == null){
             return null;
         } else {
@@ -57,7 +57,7 @@ public class BinaryTree<T> {
         }
     }
 
-    protected void postOrderHelper(Node node, List<Integer> values){
+    protected void postOrderHelper(Node<Integer> node, List<Integer> values){
         if(node.leftChild != null) {
             this.postOrderHelper(node.leftChild, values);
         } if (node.rightChild != null){
