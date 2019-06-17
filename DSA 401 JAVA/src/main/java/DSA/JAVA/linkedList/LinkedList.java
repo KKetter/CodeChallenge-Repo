@@ -83,4 +83,21 @@ public class LinkedList {
         }
         return false;
     }
+
+    public int linkedListFromTheEnd(int value){
+        int counter = 0;
+        Node target = null;
+        for (Node itr = this.head; itr != null; itr = itr.next) {
+            if (counter == value) target = this.head;
+            if (counter > value) target = target.next;
+            counter++;
+        }
+
+        if (target == null) {
+            System.out.println("The argument " + value + " is too large. The link only has " + counter + " nodes");
+            throw new IllegalArgumentException();
+        }
+        return target.value;
+    }
+
 }
