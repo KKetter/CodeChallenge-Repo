@@ -100,4 +100,21 @@ public class LinkedList {
         return target.value;
     }
 
+    public static LinkedList mergeLists(LinkedList one, LinkedList two){
+        Node currOne = one.head;
+        Node currTwo = two.head;
+        Node nextOne;
+        Node nextTwo;
+
+        while (currOne != null && currTwo != null) {
+            nextOne = currOne.getNext();
+            nextTwo = currTwo.getNext();
+            currOne.setNext(currTwo);
+            currTwo.setNext(nextOne);
+            currOne = nextOne;
+            currTwo = nextTwo;
+        }
+        return one;
+    }
+
 }
