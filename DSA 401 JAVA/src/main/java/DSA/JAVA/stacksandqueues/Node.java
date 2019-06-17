@@ -1,20 +1,16 @@
 package DSA.JAVA.stacksandqueues;
 
-public class Node {
+public class Node<T> {
+        public T value;
+        public Node next;
 
-    public int value;
-    public Node next;
-
-    Node(int data){
-        value = data;
-        next = null;
+        public Node(T value){
+            this.value = value;
+            this.next = null;
+        }
+    public String toString(){
+        return String.format("[%s]", this.value.toString());
     }
 
-    public Node getNext() {
-        return next;
-    }
 
-    public void setNext(Node next) {
-        this.next = next;
-    }
 }
