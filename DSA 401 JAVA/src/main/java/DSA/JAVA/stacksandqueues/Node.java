@@ -2,8 +2,8 @@ package DSA.JAVA.stacksandqueues;
 
 public class Node {
 
-    int value;
-    Node next;
+    public int value;
+    public Node next;
 
     Node(int data){
         value = data;

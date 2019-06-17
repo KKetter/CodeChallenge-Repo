@@ -9,3 +9,4 @@
 6. [linkedList kth from end](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.LinkedList.md)
 7. [linkedList merge](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.LinkedList.md)
 8. [Stacks and Queues](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.StacksAndQueues.md)
+9. [PseudoQueue](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.PseudoQueue.md)
