@@ -15,8 +15,18 @@
 ## Approach & Efficiency
 Time: O(n)
 
-Space: O(n)
+Space: O(1)
 ***
 
 ## API
 
+* fizzBuzzTree()
+    * If the value is divisible by 3, replace the value with “Fizz”
+    * If the value is divisible by 5, replace the value with “Buzz”
+    * If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
+    * Return the tree with its values
+
+***
+
+![FizzBuzz Whiteboard]()
+![Solution Code]()
