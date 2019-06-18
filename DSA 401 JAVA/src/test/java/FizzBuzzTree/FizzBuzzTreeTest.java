@@ -28,15 +28,6 @@ public class FizzBuzzTreeTest {
         // B    F
         //4 14 B FB
 
-        List<Object> testBefore = new ArrayList<>();
-        testBefore.add("50");
-        testBefore.add("5");
-        testBefore.add("4");
-        testBefore.add("14");
-        testBefore.add("3");
-        testBefore.add("5");
-        testBefore.add("30");
-
         List<Object> testAfter = new ArrayList<>();
         testAfter.add("Buzz");
         testAfter.add("Buzz");
