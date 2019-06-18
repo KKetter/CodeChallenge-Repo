@@ -28,5 +28,5 @@ Space: O(1)
 
 ***
 
-![FizzBuzz Whiteboard]()
-![Solution Code]()
+![FizzBuzz Whiteboard](https://github.com/KKetter/CodeChallenge-Repo/blob/FizzBuzzTree/assets/FizzBuzzWB1.jpg)
+![Solution Code](https://github.com/KKetter/CodeChallenge-Repo/blob/FizzBuzzTree/DSA%20401%20JAVA/src/main/java/FizzBuzzTree/FizzBuzzTree.java)
