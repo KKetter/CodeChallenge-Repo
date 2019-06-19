@@ -68,7 +68,6 @@ public class BinaryTree<T> {
     }
 
     public String breadthFirst(Node<T> node) {
-        //Queue<Node> queue = new Queue<>();
         Queue<Node> queue = new LinkedList<>();
         Node<T> potato;
         String output = "";
@@ -76,7 +75,6 @@ public class BinaryTree<T> {
             throw new IllegalArgumentException("tree is empty");
         }
         queue.add(node);
-        //isEmpty()?
         while (!queue.isEmpty()) {
             potato = queue.remove();
             output += potato.value + "\n";
