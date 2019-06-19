@@ -9,16 +9,20 @@
 * Create a BinarySearchTree class
     * Define a method named add that accepts a value, and adds a new node with that value in the correct location in the binary search tree.
     * Define a method named contains that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
+
+* Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach.
+    * Print every visited node’s value.
 ***
 ## Approach & Efficiency
 Time: O(n)
-Space: O(1)
+Space: O(n)
 ***
 ## API
 * BinaryTree
     * preOrder()
     * inOrder()
     * postOrder()
+    * breadthFirst()
 * BinarySearchTree
     * add() - accepts a value, and adds a new node with that value in the correct location in the binary search tree.
     * contains() - accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
@@ -26,3 +30,5 @@ Space: O(1)
 ## Solution
 ![Binary Tree Code](https://github.com/KKetter/CodeChallenge-Repo/blob/Tree/DSA%20401%20JAVA/src/main/java/tree/BinaryTree.java)
 ![Binary Search Tree Code](https://github.com/KKetter/CodeChallenge-Repo/blob/Tree/DSA%20401%20JAVA/src/main/java/tree/BinarySearchTree.java)
+![Breadth First](https://github.com/KKetter/CodeChallenge-Repo/blob/Tree/DSA%20401%20JAVA/src/main/java/tree/BinaryTree.java)
+![Breadth First WB](https://github.com/KKetter/CodeChallenge-Repo/blob/MultiBracketValidation/assets/breadthFirst1.JPG)

@@ -1,7 +1,9 @@
 package tree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class BinaryTree<T> {
     public Node<T> root;
@@ -63,5 +65,24 @@ public class BinaryTree<T> {
         } if (node.rightChild != null){
             this.postOrderHelper(node.rightChild, values);
         } values.add(node.value);
+    }
+
+    public String breadthFirst(Node<T> node) {
+        //Queue<Node> queue = new Queue<>();
+        Queue<Node> queue = new LinkedList<>();
+        Node<T> potato;
+        String output = "";
+        if (node == null) {
+            throw new IllegalArgumentException("tree is empty");
+        }
+        queue.add(node);
+        //isEmpty()?
+        while (!queue.isEmpty()) {
+            potato = queue.remove();
+            output += potato.value + "\n";
+            if (potato.leftChild != null) queue.add(potato.leftChild);
+            if (potato.rightChild != null) queue.add(potato.rightChild);
+        }
+        return output;
     }
 }

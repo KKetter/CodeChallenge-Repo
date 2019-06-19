@@ -74,5 +74,18 @@ public class BinaryTreeTest {
         assertEquals(testList, testResults);
         System.out.println(testList);
         System.out.println(testResults);
+
+    }
+
+    @Test
+    public void breadthFirstTest() {
+        BinaryTree<String> testTree = new BinaryTree<>();
+        testTree.root = new Node("a", null, null);
+        testTree.root.leftChild = new Node("b", null, null);
+        testTree.root.rightChild = new Node("c", null, null);
+        testTree.root.leftChild.leftChild = new Node("d", null, null);
+        testTree.root.leftChild.rightChild = new Node("e", null, null);
+        testTree.root.rightChild.leftChild = new Node("f", null, null);
+        assertEquals("output should match expected", "a\nb\nc\nd\ne\nf\n", testTree.breadthFirst(testTree.root));
     }
 }
