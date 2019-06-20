@@ -83,4 +83,29 @@ public class BinaryTree<T> {
         }
         return output;
     }
+
+    public static int findMaxValue(BinaryTree tree) throws IllegalStateException {
+        if(tree.root == null) {
+            throw new IllegalStateException();
+        }
+        return findMaxHelper(tree.root);
+    }
+
+    private static int findMaxHelper(Node root) {
+        int maxValue = (int)root.value;
+        if(root.leftChild != null) {
+            maxValue = max(maxValue, findMaxHelper(root.leftChild));
+        }
+        if(root.rightChild != null) {
+            maxValue = max(maxValue, findMaxHelper(root.rightChild));
+        }
+        return maxValue;
+    }
+    //this is a built in method as well - math.max
+    private static int max(int a, int b) {
+        if (a > b) {
+            return a;
+        }
+        return b;
+    }
 }

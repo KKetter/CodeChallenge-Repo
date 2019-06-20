@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.*;
+import static tree.BinaryTree.findMaxValue;
 
 public class BinaryTreeTest {
 
@@ -87,5 +88,31 @@ public class BinaryTreeTest {
         testTree.root.leftChild.rightChild = new Node("e", null, null);
         testTree.root.rightChild.leftChild = new Node("f", null, null);
         assertEquals("output should match expected", "a\nb\nc\nd\ne\nf\n", testTree.breadthFirst(testTree.root));
+    }
+
+    @Test
+    public void findMaxValueTest() {
+        BinaryTree<Integer> maxTree = new BinaryTree<>();
+        maxTree.root = new Node(4,
+                new Node(3,
+                        new Node(50, null, null),
+                        new Node(11, null, null)),
+                new Node(5,
+                        new Node(30, null, null),
+                        new Node(20, null, null)));
+        assertEquals("findMaxValue returns max value from tree", 50, findMaxValue(maxTree));
+    }
+
+    @Test
+    public void findMaxValueZeroNegativesTest() {
+        BinaryTree<Integer> maxTree = new BinaryTree<>();
+        maxTree.root = new Node(-4,
+                new Node(-3,
+                        new Node(-50, null, null),
+                        new Node(-11, null, null)),
+                new Node(-5,
+                        new Node(-30, null, null),
+                        new Node(0, null, null)));
+        assertEquals("findMaxValue returns max value from tree", 0, findMaxValue(maxTree));
     }
 }
