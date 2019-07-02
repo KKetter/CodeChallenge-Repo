@@ -17,3 +17,4 @@
 14. [Breadth First Traversal](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.Tree.md)
 15. [Max Value Binary Tree](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.Tree.md)
 16. [Insert Sort](https://github.com/KKetter/CodeChallenge-Repo/blob/master/DSA_401_JAVA/src/main/java/insertSort/LectureNotes.md)
+17. [Merge Sort](https://github.com/KKetter/CodeChallenge-Repo/blob/master/DSA_401_JAVA/src/main/java/mergeSort/LectureNotes.md)
