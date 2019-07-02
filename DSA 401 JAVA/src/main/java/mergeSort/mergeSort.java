@@ -1,73 +1,67 @@
 package mergeSort;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 //primary reference: https://www.geeksforgeeks.org/merge-sort/
 public class mergeSort {
 
     public static int[] merge(int[] array, int[] l, int[] r){
-        // Create temp arrays w/ size from lines 7,8
-        int leftArr[] = new int [l.length];
-        int rightArr[] = new int [r.length];
-
-        //Copy data to temp arrays
-        for (int i=0; i<l.length; ++i)
-            leftArr[i] = array[l.length + i];
-        for (int j=0; j<r.length; ++j)
-            //unsure if array length is correct here...might be -1...ugh
-            rightArr[j] = array[r.length + j];
-
         // Merge the temp arrays
         int i = 0;
         int j = 0;
         int k = 0;
         while (i < l.length && j < r.length)
         {
-            if (leftArr[i] <= rightArr[j])
+            if (l[i] <= r[j])
             {
-                array[k] = leftArr[i];
+                array[k] = l[i];
                 i++;
             }
             else
             {
-                array[k] = rightArr[j];
+                array[k] = r[j];
                 j++;
             }
             k++;
         }
-
         while (i < l.length)
         {
-            array[k] = leftArr[i];
+            array[k] = l[i];
             i++;
             k++;
         }
-
         while (j < r.length)
         {
-            array[k] = rightArr[j];
+            array[k] = r[j];
             j++;
             k++;
         }
+        System.out.println(Arrays.toString(array));
         return array;
     }
 
-    public static void mergeSort(int[] array){
-        int n = array.length;
+    public static int[] mergeSort(int[] array){
         //handle empty array sort
         if(array.length == 0){
             throw new IllegalArgumentException("Can not sort empty array.");
         }
         if(array.length > 1){
+            int n = array.length;
             int m = n/2;
-            int[] l = new int[m-0];
+            int[] l = new int[m];
             int[] r = new int[n-m];
+            //fill the arrays
+            //Copy data to temp arrays
+            for (int i=0; i<l.length; ++i)
+                l[i] = array[i];
+            for (int j=0; j<r.length; ++j)
+                r[j] = array[j+m];
             // Sort left and right half arrays - recursive
-            mergeSort(l);
-            mergeSort(r);
-
             // Merge the sorted halves
-            merge(array, l, r);
+            return merge(array, mergeSort(l), mergeSort(r));
         }
-
-
+        else return array;
     }
 
 
