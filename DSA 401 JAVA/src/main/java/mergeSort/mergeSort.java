@@ -1,6 +1,5 @@
 package mergeSort;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 //primary reference: https://www.geeksforgeeks.org/merge-sort/
