@@ -1,5 +1,8 @@
 package quickSort;
 
+import java.util.Arrays;
+
+//primary source : https://www.youtube.com/watch?v=SLauY6PpjW4
 public class quickSort {
 
     public static void quickSort(int[] array) {
@@ -7,6 +10,7 @@ public class quickSort {
     }
 
     public static void quickSort(int[] array, int left, int right) {
+        System.out.println(Arrays.toString(array));
         if (left >= right) {
             return;
         }
@@ -24,13 +28,20 @@ public class quickSort {
             while (array[right] > pivot){
                 right--;
             }
-        }
-        if (left <= right){
-            swap(array, left, right);
-            left++;
-            right--;
+            if (left <= right){
+                swap(array, left, right);
+                left++;
+                right--;
+            //we dont break out of this loop -
+            }
         }
         return left;
+    }
+
+    public static void swap(int[] array,int left, int right) {
+        int temp = array[left];
+        array[left] = array[right];
+        array[right] = temp;
     }
 
 }
