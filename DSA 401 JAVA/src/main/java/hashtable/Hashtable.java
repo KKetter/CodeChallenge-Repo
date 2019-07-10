@@ -57,7 +57,7 @@ public class Hashtable {
     public boolean contains(String key){
         int containsHashKey = hash(key);
         while(this.map[containsHashKey] != null){
-            if(this.map[containsHashKey].getKey() == key){
+            if(this.map[containsHashKey].getKey().equals(key)){
                 return true;
             }
             this.map[containsHashKey] = this.map[containsHashKey].getNext();

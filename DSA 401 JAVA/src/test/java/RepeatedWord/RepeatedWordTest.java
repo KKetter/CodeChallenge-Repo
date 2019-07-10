@@ -9,7 +9,7 @@ public class RepeatedWordTest {
     @Test
     public void repeatedWord() {
         String phrase = "wakka flakka flame likes to wakka";
-        String paragraphPunc = "Ring, a ding, dong, wam, bam, up, down, waffle, wow!!!, wam"	;
+        String paragraphPunc = "Ring, a ding, dong, wam, bam, up, down, waffle, wow!!!, wam, thing"	;
         String unique = "dog cat waffle duck pig";
 
         assertEquals("wakka", RepeatedWord.repeatedWord(phrase));
