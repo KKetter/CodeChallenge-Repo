@@ -6,8 +6,8 @@
 * Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
 ***
 ## Approach & Efficiency
-Time: O()
-Space: O()
+Time: O(n)
+Space: O(n)
 ***
 ## API
 <!-- Description of each method publicly available to your Stack and Queue-->
