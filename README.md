@@ -19,4 +19,5 @@
 16. [Insert Sort](https://github.com/KKetter/CodeChallenge-Repo/blob/master/DSA_401_JAVA/src/main/java/insertSort/LectureNotes.md)
 17. [Merge Sort](https://github.com/KKetter/CodeChallenge-Repo/blob/master/DSA_401_JAVA/src/main/java/mergeSort/LectureNotes.md)
 18. [Quick Sort](https://github.com/KKetter/CodeChallenge-Repo/blob/master/DSA_401_JAVA/src/main/java/quickSort/LectureNotes.md)
-19. [Hash Table](https://github.com/KKetter/CodeChallenge-Repo/blob/multiBracketValidation/otherReadMes/README.Hashtable.md)
+19. [Hash Table](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.Hashtable.md)
+20. [Repeated Word](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.RepeatedWord.md)
