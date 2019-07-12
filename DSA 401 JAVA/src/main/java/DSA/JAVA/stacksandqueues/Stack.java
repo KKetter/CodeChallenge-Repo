@@ -1,7 +1,5 @@
 package DSA.JAVA.stacksandqueues;
 
-import org.apache.commons.math3.stat.descriptive.rank.Max;
-
 import java.util.EmptyStackException;
 
 public class Stack<T> {
