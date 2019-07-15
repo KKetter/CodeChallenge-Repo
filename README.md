@@ -21,3 +21,5 @@
 18. [Quick Sort](https://github.com/KKetter/CodeChallenge-Repo/blob/master/DSA_401_JAVA/src/main/java/quickSort/LectureNotes.md)
 19. [Hash Table](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.Hashtable.md)
 20. [Repeated Word](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.RepeatedWord.md)
+21. [Left Join](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.LeftJoin.md)
+22. [Graph](https://github.com/KKetter/CodeChallenge-Repo/blob/master/otherReadMes/README.Graph.md)
